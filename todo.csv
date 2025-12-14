@@ -1,0 +1,5 @@
+id,description,priority,due_date,status,created_at
+1,README der Aufgabe lesen,high,2025-12-15,done,2025-12-13 13:12:04
+2,Funktionen add/edit/delete implementieren,medium,2025-12-18,open,2025-12-13 13:12:04
+3,Tests & Doku schreiben,low,2025-12-20,done,2025-12-13 13:12:04
+4,Filmschauen,low,2025-12-15,open,2025-12-13 16:28:33
