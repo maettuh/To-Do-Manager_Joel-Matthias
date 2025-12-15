@@ -16,13 +16,6 @@ VALID_STATUS = (STATUS_OPEN, STATUS_DONE)
 
 # Dateien / Backup Funktionen
 def file_exists(path: str) -> bool:
-    ...
-
-def backup_copy_file(src_path: str) -> str | None:
-    ts = datetime.now().strftime("%Y%m%d-%H%M%S") # Zeitstempel für Backup-Datei
-    ...
-
-def file_exists(path: str) -> bool:
     try:
         with open(path, "r", encoding="utf-8"):
             return True
